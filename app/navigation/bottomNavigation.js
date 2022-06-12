@@ -49,7 +49,26 @@ const BottomTabBars = () => {
           ),
         }}
       />
-    
+      {/* <BottomBarTab.Screen
+        name={routesName.SEARCH_SCREEN}
+        component={bottom.Search_SCREEN}
+        options={{
+          title: "",
+
+          tabBarIcon: ({ color }) => (
+            <Icon name="search" size={24} color={color} />
+          ),
+        }}
+      /> */}
+      {/* <BottomBarTab.Screen
+          name={routesName.CREATE_SCREEN}
+          component={bottom.CREATE_SCREEN}
+          options={{
+            tabBarButton: (props) => (
+              <TabBarAdvancedButton bgColor={"#fff"} {...props} />
+            ),
+          }}
+        /> */}
       <BottomBarTab.Screen
         name={routesName.FAVORITES_SCREEN}
         component={bottom.Favourite_Screen}
@@ -58,7 +77,13 @@ const BottomTabBars = () => {
             <TabBarAdvancedButton bgColor={"#fff"} {...props} />
           ),
         }}
-     
+        // options={{
+        //   title: "",
+
+        //   tabBarIcon: ({ color }) => (
+        //     <Icon name="heart" size={24} color={color} />
+        //   ),
+        // }}
       />
       <BottomBarTab.Screen
         name={routesName.PROFILE_SCREEN}
